@@ -1,0 +1,58 @@
+.app{
+    min-height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FBFEFD;
+}
+.item{
+  width: 31%;
+  align-items: center;
+  box-shadow: 0px 14px 30px rgba(0,0,0,0.1);
+  margin: 20px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 20px 20px;
+  font-family: 'Poppins';
+ 
+}
+.item .img{
+    text-align: center;
+    align-items: center;
+}
+.item .price{
+    display: flex;
+    justify-content: space-between;
+}
+.item h1{
+    font-size: 25px;
+}
+.item p{
+    color: #A6A6A6;
+}
+@media screen and (max-width: 1200px) {
+    .item{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .item{
+        width: 48%;
+    }
+     .app{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+}
+@media screen and (max-width: 780px) {
+    .item{
+        width: 80%;
+        height: 400px;
+    }
+     
+}

@@ -1,0 +1,71 @@
+.contact{
+    min-height: 100vh;
+    padding-top: 100px;
+    background-color: #FBFEFD;
+    display: flex;
+    justify-content: center;
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFEFD;
+}
+.contact .img{
+    width: 400px;
+    height: 500px;
+}
+.contactTitle{
+   width: 500px;
+   justify-content: center;
+   text-align: start;
+   display: flex;
+   flex-direction: column;
+}
+.appImage{
+    display: flex;
+}
+.appImg{  
+    margin: 30px 20px;
+}
+.contactTitle h1{
+    color: #333;
+    font-size: 35px;
+}
+.contactTitle p {
+    font-size: 25px;
+    color: #A6A6A6;
+}
+.contactTitle p span {
+    color: #048654;
+    font-weight: 700;
+}
+ .icon {
+    text-align: end;
+    margin: 40px;
+    font-size: 55px;
+    color: #048654;
+}
+
+
+@media screen and (max-width: 920px) {
+    .contactTitle h1 {
+        font-size: 30px;
+    }
+    .contactTitle p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contactTitle{
+        width: 70%;
+        margin-top: 50px;
+        text-align: center;
+    }
+}

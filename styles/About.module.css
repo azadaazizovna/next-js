@@ -1,0 +1,165 @@
+.about{
+    min-height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    background-color: #FBFEFD;
+}
+.about .img {
+    width: 500px;
+    height: 500px;
+    align-content: center;  
+}
+.aboutTitle{
+    padding: 5px 30px;
+}
+.aboutTitle h1{
+    font-size: 40px;
+    width: 500px;
+    color: #333;
+}
+.aboutTitle p{
+    font-size: 20px;
+    width: 600px;
+    color: #A6A6A6;
+    font-weight: 600;
+}
+.aboutTitle p span{
+    color: #048654;
+    font-weight: 700;
+}
+.aboutTitle button {
+    padding: 18px;
+    width: 180px;
+    border: none;
+    background-color: #048654;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+  .aboutTitle button:hover{
+    box-shadow: 0px 14px 30px rgba(0,0,0,0.1);
+  }
+@media screen and (max-width: 1200px) {
+    .aboutTitle h1 {
+        width: 400px;
+    }
+    .aboutTitle p {
+        width: 400px;
+    }
+    .about .img{
+        width: 450px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .aboutTitle h1 {
+        width: 350px;
+        font-size: 35px;
+    }
+    .aboutTitle p {
+        width: 350px;
+        font-size: 18px;
+    }
+    .aboutTitle button{
+        font-size: 16px;
+        padding: 16px;
+        width: 150px;
+    }
+    .about .img{
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width: 920px) {
+    .aboutTitle h1 {
+        width: 300px;
+        font-size: 32px;
+    }
+    .aboutTitle p {
+        width: 300px;
+        font-size: 16px;
+    }
+    .aboutTitle button{
+        font-size: 15px;
+        padding: 14px;
+        width: 130px;
+    }
+    .about .img{
+        width: 350px;
+        height: 350px;
+    }
+    
+}
+@media screen and (max-width: 780px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about .img{
+      margin-top: 30px;
+    }
+    .aboutTitle{
+        justify-content: center;
+        text-align: center;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
